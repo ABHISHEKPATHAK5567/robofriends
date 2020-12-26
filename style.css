@@ -1,0 +1,52 @@
+body {
+  background: linear-gradient(270deg,#071b52 0,teal);
+}
+
+.heading {
+  text-align: center;
+  color: #0ccac4;
+}
+
+.cards-container {
+  border: 3px solid black;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-evenly;
+  height: 450px;
+  overflow: auto;
+}
+
+.card {
+  background-color: #9eebcf;
+  box-shadow: 4px 4px 8px 0 rgba(0,0,0,.2);
+  border-radius: .5rem;
+  width: 232px;
+  height: 336px;
+  margin-top: 20px;
+}
+
+.card-img {
+  height: 200px;
+}
+
+.center {
+  text-align: center;
+}
+
+.topnav {
+  text-align: center;
+  }
+
+  .size {
+    height: 52px;
+    width: 234px;
+    margin: 20px;
+    font-size: medium;
+    background-color: lightblue;
+    border: none;
+  }
+  
+  .fancy_card:hover {
+    transform: scale(1.05);
+    transition: transform .5s ease;
+  }
